@@ -2,6 +2,10 @@
 
 A ten line shell script that returns you your ip address and its geolocation.
 
+![](./promo/rachel.jpg)
+![](./promo/harrison.jpg)
+![](./promo/blondguy.jpg)
+
 ## Installation
 
 ```
@@ -37,3 +41,5 @@ Tonys-MacBook-Pro-3:~ tonyrosler$
 ### Note on usage
 
 This script utilises a free api which allows for 3 requests per second.
+
+Lastly, if you are not connected to the internet, then well, you must be somehwere of the shoulder of Orion.
