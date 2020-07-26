@@ -2,16 +2,9 @@
 
 A ten line shell script that returns you your ip address and its geolocation.
 
-<style>
-img
-{
-    display:block; 
-    float:none; 
-    margin-left:auto;
-    margin-right:auto;
-    width:30%;
-}
-</style>
+ <p align="center"> 
+    <img src="./promo/blondguy.jpg">
+ </p>
 
 ![](./promo/blondguy.jpg)
 
