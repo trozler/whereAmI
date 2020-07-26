@@ -6,8 +6,6 @@ A ten line shell script that returns you your ip address and its geolocation.
     <img src="./promo/blondguy.jpg">
  </p>
 
-![](./promo/blondguy.jpg)
-
 ## Installation
 
 ```
