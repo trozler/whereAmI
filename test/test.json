@@ -1,0 +1,26 @@
+{
+  "status": "success",
+  "description": "Data successfully received.",
+  "data": {
+    "geo": {
+      "host": "88.3.156.244",
+      "ip": "88.3.156.244",
+      "rdns": "244.red-88-3-156.dynamicip.rima-tde.net",
+      "asn": 3352,
+      "isp": "Telefonica De Espana",
+      "country_name": "Spain",
+      "country_code": "ES",
+      "region_name": "Balearic Islands",
+      "region_code": "PM",
+      "city": "Sineu",
+      "postal_code": "07510",
+      "continent_name": "Europe",
+      "continent_code": "EU",
+      "latitude": 39.6425,
+      "longitude": 3.0103,
+      "metro_code": null,
+      "timezone": "Europe/Madrid",
+      "datetime": "2020-07-26 15:04:33"
+    }
+  }
+}
