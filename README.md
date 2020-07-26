@@ -1,21 +1,39 @@
-### whereamI
+# whereAmI
 
-A small shell script that returns you your ip location and its geolocation.
+A ten line shell script that returns you your ip address and its geolocation.
 
-### Installation
+## Installation
 
 ```
 $ cd ~
-$ git clone
+$ git clone https://github.com/trozler/whereAmI.git
 ```
 
-### Need to make script executabl.
+I recommend adding the following alias to your bashprofile (`~/.bash_profile`).
+`~/.bashrc` should also work.
 
-chmod 755 ./findmepls.sh
-echo ""
-alias myip='bash ./menuScript.sh'
+```
+echo -e '\nalias myip2="/bin/bash ~/whereamI/findmepls.sh"' >> ~/.bash_profile
+```
 
-### Singel line
+## How to run
 
-curl -s ifconfig.me | sed 's/\$//' |
-alias myip="source ~/Desktop/dev/whereamI/findmepls.sh"
+If you created an alias:
+
+```
+Tonys-MacBook-Pro-3:~ tonyrosler$ myip
+88.3.156.244 - Balearic Islands, Spain.
+Tonys-MacBook-Pro-3:~ tonyrosler$
+```
+
+Otherwise:
+
+```
+Tonys-MacBook-Pro-3:~ tonyrosler$ /bin/bash whereAmI/findmepls.sh
+88.3.156.244 - Balearic Islands, Spain.
+Tonys-MacBook-Pro-3:~ tonyrosler$
+```
+
+### Note on usage
+
+This script utilises a free api which allows for 3 requests per second.
