@@ -23,7 +23,7 @@ $ source ~/.bash_profile
 
 ## How to run
 
-If you created an alias:
+If you created the alias:
 
 ```
 $ myip
