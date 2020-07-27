@@ -1,6 +1,6 @@
 # whereAmI
 
-A ten line shell script that returns you your ip address and its geolocation.
+A one line shell script that returns you your ip address and its geolocation.
 
  <p align="center"> 
     <img src="./promo/blondguy.jpg">
