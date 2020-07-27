@@ -17,7 +17,8 @@ I recommend adding the following alias to your bashprofile (`~/.bash_profile`).
 `~/.bashrc` should also work.
 
 ```
-echo -e '\nalias myip2="/bin/bash ~/whereamI/findmepls.sh"' >> ~/.bash_profile
+$ echo -e '\nalias myip="/bin/bash ~/whereamI/findmepls.sh"' >> ~/.bash_profile
+$ source ~/.bash_profile
 ```
 
 ## How to run
@@ -25,17 +26,15 @@ echo -e '\nalias myip2="/bin/bash ~/whereamI/findmepls.sh"' >> ~/.bash_profile
 If you created an alias:
 
 ```
-Tonys-MacBook-Pro-3:~ tonyrosler$ myip
+$ myip
 88.3.156.244 - Balearic Islands, Spain.
-Tonys-MacBook-Pro-3:~ tonyrosler$
 ```
 
 Otherwise:
 
 ```
-Tonys-MacBook-Pro-3:~ tonyrosler$ /bin/bash whereAmI/findmepls.sh
+$ /bin/bash ~/whereAmI/findmepls.sh
 88.3.156.244 - Balearic Islands, Spain.
-Tonys-MacBook-Pro-3:~ tonyrosler$
 ```
 
 ### Note on usage
