@@ -1,7 +1,7 @@
 # whereAmI
 ![Shell][1]![License][3]
 
-[1]: https://img.shields.io/badge/-Bash-89e051
+[1]: https://img.shields.io/badge/Shell-Bash-89e051
 [3]: https://img.shields.io/badge/license-MIT-orange
 A one line shell script that returns your ip address and its geolocation.
 
