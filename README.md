@@ -30,7 +30,7 @@ If you created the alias:
 
 ```
 $ myip
-88.3.156.244 - Balearic Islands, Spain.
+88.3.154.243 - Balearic Islands, Spain.
 ```
 
 Otherwise:
