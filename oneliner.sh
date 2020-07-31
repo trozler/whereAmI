@@ -1,0 +1,2 @@
+{ curl -s "ifconfig.me" >> /dev/null 2>&1 \
+ && printf "%s - %s, %s.\n" "$(curl -s ipinfo.io/ip)" "$(curl -s ipinfo.io/city)" "$(curl -s ipinfo.io/country)"; } || echo "lost - somewhere off the shoulder of Orion";
