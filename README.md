@@ -42,4 +42,4 @@ $ /bin/bash ~/whereAmI/findmepls.sh
 
 This script utilises a free api which allows for 3 requests per second.
 
-Lastly, if you are not connected to the internet, then well, you must be somewhere of the shoulder of Orion.
+Lastly, if you are not connected to the internet, then well, you must be somewhere off the shoulder of Orion.
