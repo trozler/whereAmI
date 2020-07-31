@@ -5,7 +5,7 @@
 [1]: https://img.shields.io/badge/Shell-Bash-89e051
 [3]: https://img.shields.io/badge/license-MIT-orange
 
-A shell script that returns you your ip address and its geolocation.
+A shell script that returns you your IPv4 address and its geolocation.
 
 ## Installation
 
