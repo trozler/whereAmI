@@ -10,7 +10,7 @@ A shell script that returns you your IPv4 address and its geolocation.
 ## Update
 
 Originally findmepls.sh was used to find your IPv4 address and its geolocation. However,
-@METH-OD_MAN on reddit alerted me about a better api. So I created a second script oneliner.sh, which is shorter and cleaner.
+@METH-OD_MAN on reddit alerted me about a better api. So I created a second script oneliner.sh, which may be actually be a valid one line script.
 
 ## Installation
 
@@ -23,7 +23,7 @@ I recommend adding the following alias to your bashprofile (`~/.bash_profile`).
 `~/.bashrc` should also work.
 
 ```
-$ echo -e '\nalias myip="/bin/bash ~/whereamI/oneliner.sh"' >> ~/.bash_profile
+$ echo -e '\nalias myip="/bin/bash ~/whereAmI/oneliner.sh"' >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
