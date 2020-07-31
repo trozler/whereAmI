@@ -1,5 +1,10 @@
 # whereAmI
 
+![Shell][1]![License][3]
+
+[1]: https://img.shields.io/badge/Shell-Bash-89e051
+[3]: https://img.shields.io/badge/license-MIT-orange
+
 A single line shell script that returns you your ip address and its geolocation.
 
  <p align="center"> 
@@ -27,14 +32,14 @@ If you created the alias:
 
 ```
 $ myip
-88.3.156.244 - Balearic Islands, Spain.
+88.2.154.243 - Balearic Islands, Spain.
 ```
 
 Otherwise:
 
 ```
 $ /bin/bash ~/whereAmI/findmepls.sh
-88.3.156.244 - Balearic Islands, Spain.
+88.2.154.243 - Balearic Islands, Spain.
 ```
 
 ### Note on usage
