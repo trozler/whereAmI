@@ -1,6 +1,5 @@
 #!/bin/bash
 
-{ RESP=$(curl -s "ifconfig.me") \
- && LOC=$(curl -s "https://tools.keycdn.com/geo.json?host={$RESP}") \
-  && printf "%s - %s, %s.\n" "$RESP" "$(grep -Eo '"region_name":.*?[^\\],' <<< "$LOC" | sed 's/^.*:"//;s/",//')" "$(grep -Eo '"country_name":.*?[^\\],' <<< "$LOC" | sed 's/^.*:"//;s/",//')"; } \
-  || echo "lost - somewhere off the shoulder of Orion";
+{ curl -s "ifconfig.me" >> /dev/null 2>&1 && RESP=$(curl -s "ipinfo.io") && \
+ printf "%s - %s, %s.\n" "$(grep -Eo '"ip":.*?[^\\],' <<< "$RESP" | sed 's/^.*: "//;s/",//')" "$(grep -Eo '"city":.*?[^\\],' <<< "$RESP" | sed 's/^.*: "//;s/",//')" "$(grep -Eo '"country":.*?[^\\],' <<< "$RESP" | sed 's/^.*: "//;s/",//')"; } || \
+  echo "lost - somewhere off the shoulder of Orion";

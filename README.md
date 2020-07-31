@@ -5,12 +5,7 @@
 [1]: https://img.shields.io/badge/Shell-Bash-89e051
 [3]: https://img.shields.io/badge/license-MIT-orange
 
-A one line shell script that returns you your IPv4 address and its geolocation.
-
-## Update
-
-Originally findmepls.sh was used to find your IPv4 address and its geolocation. However,
-@METH-OD_MAN on reddit alerted me about a better api. So I created a second script oneliner.sh, which is a lot cleaner and simpler.
+A short shell script that returns you your IPv4 address and its geolocation.
 
 ## Installation
 
