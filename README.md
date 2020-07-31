@@ -18,7 +18,7 @@ I recommend adding the following alias to your bashprofile (`~/.bash_profile`).
 `~/.bashrc` should also work.
 
 ```
-$ echo -e '\nalias myip="/bin/bash ~/whereamI/findmepls.sh"' >> ~/.bash_profile
+$ echo -e '\nalias myip="/bin/bash ~/whereAmI/findmepls.sh"' >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
