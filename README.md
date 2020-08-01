@@ -41,7 +41,7 @@ Otherwise:
 
 ```
 $ /bin/bash ~/whereAmI/findmepls.sh
-88.2.154.243 - Balearic Islands, Spain.
+88.3.356.944 - Palma, Balearic Islands, ES.
 ```
 
 ### Note on usage
