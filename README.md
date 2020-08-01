@@ -8,6 +8,7 @@
 A short shell script that returns you your IPv4 address and its geolocation.
 
 #### Update August 1st 2020.
+
 The file oneliner.sh is no longer supported for a variaty of reasons. findmepls.sh has been updated with the new api and is now the default script again. Some of you may have to update your alias's in your `~/.bash_profile`.
 
 It should be `myip="/bin/bash ~/whereAmI/findmepls.sh`.
@@ -33,7 +34,7 @@ If you created the alias:
 
 ```
 $ myip
-88.2.154.243 - Balearic Islands, Spain.
+88.3.356.944 - Palma, Balearic Islands, ES.
 ```
 
 Otherwise:
