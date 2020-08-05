@@ -42,6 +42,4 @@ $ /bin/bash ~/whereAmI/findmepls.sh
 88.3.356.944 - Palma, Balearic Islands, ES.
 ```
 
-### Note on usage
-
 Lastly, if you are not connected to the internet, then well, you must be somewhere off the shoulder of Orion.
