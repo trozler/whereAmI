@@ -7,11 +7,9 @@
 
 A short shell script that returns you your IPv4 address and its geolocation.
 
-#### Update August 1st 2020.
+#### Update August 5th 2020.
 
-The file oneliner.sh is no longer supported for a variaty of reasons. findmepls.sh has been updated with the new api and is now the default script again. Some of you may have to update your alias's in your `~/.bash_profile`.
-
-It should be `myip="/bin/bash ~/whereAmI/findmepls.sh`.
+The endpoint `ipinfo.io` has been changed in `findme.pls`, as it turns out its geolocation is very inaccurate. Hopefully, the new endpoints provide more accuracy.
 
 ## Installation
 
