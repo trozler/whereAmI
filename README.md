@@ -7,7 +7,7 @@
 
 A short shell script that returns you your IPv4 address and its geolocation.
 
-## Update August 30th 2020.
+### Update August 30th 2020.
 
 - The script is now POSIX compatible.
 - It performs much better and is more conceis: 2 `sed` and 2 `grep` commands --> 1 `sed` command.
