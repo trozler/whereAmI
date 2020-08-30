@@ -1,10 +1,15 @@
-#!/bin/bash
+#!/bin/sh
+
+#August 30th 2020; Made POSIX compatible.
 
 (
 RESP=$(curl -s ifconfig.me) \
- && LOC=$(curl -s "https://tools.keycdn.com/geo.json?host={$RESP}") \
-  && printf "%s - %s, %s.\n" \
-   "$RESP" \
-    "$(grep -Eo '"region_name":.*?[^\\],' <<< "$LOC" | sed 's/^.*:"//;s/",//')" \
-    "$(grep -Eo '"country_name":.*?[^\\],' <<< "$LOC" | sed 's/^.*:"//;s/",//')"
+&& curl -s "https://tools.keycdn.com/geo.json?host={$RESP}" | sed 's'/\
+'.*"ip":"\([.0-9:A-Fa-f]\{7,39\}\)",'\
+'.*"country_name":"\([a-zA-z]*\)",'\
+'.*"region_code":"\([a-zA-z]*\)",'\
+'.*"city":"\([[:alpha:]]*\)",'\
+'.*$/'\
+'\1 - \4, \3, \2./'
 ) || echo "lost - somewhere off the shoulder of Orion";
+

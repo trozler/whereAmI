@@ -7,9 +7,22 @@
 
 A short shell script that returns you your IPv4 address and its geolocation.
 
-#### Update August 5th 2020.
+## Update August 30th 2020.
 
-The endpoint `ipinfo.io` has been changed in `findme.pls`, as it turns out its geolocation is very inaccurate. Hopefully, the new endpoints provide more accuracy.
+- The script is now POSIX compatible.
+- It performs much better and is more conceis: 2 `sed` and 2 `grep` commands --> 1 `sed` command.
+- End points have again been updated to provide better geolocation accuracy.
+
+If you have previously installed the script, update your local copy like this:
+
+```
+$ cd ~/whereAmI/
+$ git pull origin master
+```
+
+Also for those who created an alias, change the interpreter to shebang:
+
+`alias myip="/bin/sh ~/whereAmI/findmepls.sh"`
 
 ## Installation
 
@@ -22,7 +35,7 @@ I recommend adding the following alias to your bashprofile (`~/.bash_profile`).
 `~/.bashrc` should also work.
 
 ```
-$ echo -e '\nalias myip="/bin/bash ~/whereAmI/findmepls.sh"' >> ~/.bash_profile
+$ echo -e '\nalias myip="/bin/sh ~/whereAmI/findmepls.sh"' >> ~/.bash_profile
 $ source ~/.bash_profile
 ```
 
@@ -38,7 +51,7 @@ $ myip
 Otherwise:
 
 ```
-$ /bin/bash ~/whereAmI/findmepls.sh
+$ /bin/sh ~/whereAmI/findmepls.sh
 88.3.356.944 - Palma, Balearic Islands, ES.
 ```
 
