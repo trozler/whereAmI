@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#August 30th 2020; Made POSIX compatible.
-
 (
 RESP=$(curl -s ifconfig.me) \
 && curl -s "https://tools.keycdn.com/geo.json?host={$RESP}" | sed 's'/\
