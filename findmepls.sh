@@ -8,6 +8,6 @@ RESP=$(curl -s ifconfig.me) \
 '.*"region_code":"\([a-zA-z]*\)",'\
 '.*"city":"\([[:alpha:]]*\)",'\
 '.*$/'\
-'\1 - \4, \3, \2./'
+'\1 - \4, \3, \2.\n/'
 ) || echo "lost - somewhere off the shoulder of Orion";
 
