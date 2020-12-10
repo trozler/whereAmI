@@ -7,6 +7,11 @@
 
 A short shell script that returns you your IPv4 address and its geolocation.
 
+### Update December 10th 2020.
+- Regex bug fixed: script now works for countries with spaces in their names e.g. United States. 
+- Added new line chracter to end of script (don't know where the original one went).
+
+
 ### Update August 30th 2020.
 
 - The script is now POSIX compatible.
